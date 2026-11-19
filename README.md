@@ -2,18 +2,25 @@
 
 Herramienta de Windows para mantener el PC limpio, privado y ordenado: limpieza de archivos basura y registro, privacidad, gestión de programas y apps, programas de inicio con su tiempo de arranque, y análisis programado.
 
-## Descargar
+## Instalar con un comando
 
-Ve a [**Releases**](../../releases/latest) y descarga `PoyeriaCare-Setup.exe`.
+Abre **PowerShell** (menú Inicio, escribe `PowerShell`) y pega esto:
+
+```powershell
+irm https://raw.githubusercontent.com/oiergonzalezth-png/PoyeriaCare/main/install.ps1 | iex
+```
+
+Descarga la última versión, comprueba que el archivo no está dañado y abre el instalador. Windows te pedirá permisos de administrador.
+
+## Instalar a mano
+
+Ve a [**Releases**](../../releases/latest), descarga `PoyeriaCare-Setup.exe` y ábrelo.
 
 - Requiere Windows 10 u 11 de 64 bits y permisos de administrador.
 - El instalador no está firmado digitalmente, así que Windows SmartScreen puede avisar al abrirlo.
-- Cada release publica el **SHA-256** del instalador en sus notas, para que puedas comprobarlo:
 
-```powershell
-Get-FileHash .\PoyeriaCare-Setup.exe -Algorithm SHA256
-```
+## Actualizaciones
 
-## Actualizaciones automáticas
+PoyeriaCare avisa cuando hay una versión nueva y se actualiza desde este repositorio. Se puede desactivar en **Ajustes > Actualizaciones**.
 
-PoyeriaCare consulta este repositorio (solo la API pública de *Releases*) y, si hay una versión nueva, descarga el instalador, **comprueba su SHA-256** y se actualiza. Se puede desactivar en **Ajustes > Actualizaciones**.
+> Este repositorio solo contiene las versiones publicadas; el código fuente no es público.

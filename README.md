@@ -22,5 +22,3 @@ Ve a [**Releases**](../../releases/latest), descarga `PoyeriaCare-Setup.exe` y �
 ## Actualizaciones
 
 PoyeriaCare avisa cuando hay una versión nueva y se actualiza desde este repositorio. Se puede desactivar en **Ajustes > Actualizaciones**.
-
-> Este repositorio solo contiene las versiones publicadas; el código fuente no es público.

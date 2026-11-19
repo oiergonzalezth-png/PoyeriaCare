@@ -17,5 +17,3 @@ Get-FileHash .\PoyeriaCare-Setup.exe -Algorithm SHA256
 ## Actualizaciones automáticas
 
 PoyeriaCare consulta este repositorio (solo la API pública de *Releases*) y, si hay una versión nueva, descarga el instalador, **comprueba su SHA-256** y se actualiza. Se puede desactivar en **Ajustes > Actualizaciones**.
-
-> Este repositorio solo contiene las versiones publicadas; el código fuente no es público.
